@@ -157,12 +157,16 @@ section {
 
 .clear-canvas:hover {
   color: #fff;
-  background-color: #6c757d;
+  background-color: #a4abb3;
 }
 
 .buttons .save-img {
   background: #4a98f7;
   border: 1px solid #4a98f7;
+}
+
+.buttons .save-img:hover {
+  background-color: #357cd3;
 }
 
 .drawing-board {
