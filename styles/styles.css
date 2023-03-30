@@ -15,9 +15,10 @@ body {
 .container {
   display: flex;
   width: 100%;
+  height: 800px;
   gap: 10px;
   padding: 10px;
-  max-width: 1050px;
+  max-width: 1600px;
 }
 
 section {
@@ -25,9 +26,15 @@ section {
   border-radius: 7px;
 }
 
+.title {
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
 .tools-board {
   width: 210px;
-  padding: 15px 22px 0;
+  padding: 30px 22px 0;
 }
 
 .tools-board .row {
@@ -92,20 +99,20 @@ section {
 }
 
 .colors .option:nth-child(1) {
-  background: #fff;
+  background-color: #fff;
   border: 1px solid #bfbfbf;
 }
 .colors .option:nth-child(2) {
-  background: #000;
+  background-color: #000;
 }
 .colors .option:nth-child(3) {
-  background: #e02020;
+  background-color: #e02020;
 }
 .colors .option:nth-child(4) {
-  background: #6dd400;
+  background-color: #6dd400;
 }
 .colors .option:nth-child(5) {
-  background: #4a98f7;
+  background-color: #4a98f7;
 }
 
 .colors .option.selected::before {
@@ -160,4 +167,9 @@ section {
 
 .drawing-board {
   flex: 1;
+}
+
+.drawing-board canvas {
+  width: 100%;
+  height: 100%;
 }
